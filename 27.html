@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animal quiz</title>
+
+    <link rel="stylesheet" href="CSS/font.css">
+    <link rel="stylesheet" href="CSS/question.css">
+
+    <link rel="shortcut icon" href="Assets/images/lion.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <!-- <editor-fold desc="header"> -->
+        <div class="quiz-no div-header">
+            <img src="Assets/images/flower1.png" alt="quiz-no">
+            <span class="quiz-no-span">27</span>
+        </div>
+        <header>
+            <div class="home-icon div-header width-18 float-left">
+                <img src="Assets/images/home.png" alt="home-icon" class="home-link">
+            </div>
+            <div class="next-quiz div-header width-45 float-left">
+                <img src="Assets/images/nexts.png" alt="next-quiz" class="next-quiz-img">
+            </div>
+            <div class="points div-header width-30">
+                <img src="Assets/images/Coin.png" alt="points">
+                <span class="current-score">0</span>
+            </div>
+        </header>
+        <!-- </editor-fold> -->
+
+
+        <section id="answer-question">
+            <!-- <editor-fold desc="Image question"> -->
+            <img src="Assets/images/land/otter.jpg" alt="otter" class="animal-img">
+            <!-- </editor-fold> -->
+
+            <!-- <editor-fold desc="Wrong answer"> -->
+            <div class="wrong-answer text-center">
+                <img src="Assets/images/star1.png" alt="start" class="star">
+                <h1 class="you-lose">You lose!</h1>
+                <div class="lose-score">
+                    <img src="Assets/images/dollar.png" alt="dollar">
+                    <span class="current-score-lose"></span>
+                </div>
+            </div>
+            <!-- </editor-fold> -->
+
+            <!-- <editor-fold desc="True answer"> -->
+            <div class="true-answer text-center">
+                <img src="Assets/images/star1.png" class="star">
+                <h1 class="talented">You're talented!</h1>
+                <div class="gain-score">
+                    <img src="Assets/images/Coin.png" alt="coin">
+                    <span>+100</span>
+                </div>
+                <img src="Assets/images/facebook.png" class="facebook">
+                <img src="Assets/images/twitter.png" class="twitter">
+            </div>
+            <!-- </editor-fold> -->
+
+            <!-- <editor-fold desc="Button region"> -->
+            <div class="answer">
+                <!-- <editor-fold desc="Options"> -->
+                <div class="answer-region">
+                    <button class="btn btn-blue true">Otter</button>
+                    <button class="btn btn-red false">Goat</button>
+                    <button class="btn btn-green false">Bunny</button>
+                    <button class="btn btn-yellow false"> Dragon- fly</button>
+                </div>
+                <!-- </editor-fold> -->
+
+
+                <!-- <editor-fold desc="Replay"> -->
+                <button class="btn btn-orange vertical-center-img btn-lose">
+                    <img src="Assets/images/again.png" alt="replay" class="replay-img">
+                    <span>Replay</span>
+                </button>
+                <!-- </editor-fold> -->
+
+                <!-- <editor-fold desc="Next"> -->
+                <div class="true-buttons">
+                    <button class="btn btn-medal btn-hidden-answer">
+                        <img src="Assets/images/price.png">
+                        <span class="hidden-answer"></span>
+                    </button>
+                    <button class="btn btn-pink next-button">
+                        <img src="Assets/images/next2.png" class="next-img">
+                        <span>Next!</span>
+                    </button>
+                </div>
+                <!-- </editor-fold> -->
+            </div>
+            <!-- </editor-fold> -->
+        </section>
+    </div>
+
+    <!-- <editor-fold desc="audio"> -->
+    <audio controls id="clapping" hidden src="Assets/sound/clapping.mp3"></audio>
+    <audio controls id="ding" hidden src="Assets/sound/ding.mp3"></audio>
+    <audio controls id="level" hidden src="Assets/sound/level.mp3"></audio>
+    <audio controls id="music" hidden src="Assets/sound/music.mp3"></audio>
+    <audio controls id="sub" hidden src="Assets/sound/sub.mp3"></audio>
+    <audio controls id="wrong" hidden src="Assets/sound/wrong.mp3"></audio>
+    <!-- </editor-fold> -->
+
+    <!-- <editor-fold desc="JS"> -->
+    <script src="Assets/JS/jquery-3.3.1.min.js"></script>
+    <script src="JS/all.js"></script>
+    <!-- </editor-fold> -->
+
+</body>
+
+</html>

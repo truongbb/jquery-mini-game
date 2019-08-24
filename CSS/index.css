@@ -1,0 +1,114 @@
+
+body {
+	background: #27bfb9;
+}
+
+.margin{
+	margin-bottom: 11%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.head {
+	padding: 2% 40% ;
+}
+
+.img-logo {
+	width: 75%;
+}
+
+.img-logo-title {
+	width: 100%;
+}
+
+.level-area {
+	padding-left: 3%;
+    padding-right: 3%;
+}
+
+.item {
+	width: 16.5%;
+	display: inline-block;
+	padding-right: 10%;
+    padding-left: 7%;
+}
+
+.thumbnail {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+img.thumb {
+	max-width: 100%;
+	height: auto;
+}
+
+.img-level {
+	width: 100%;
+}
+
+.cirle {
+	background: #efe8e8;
+    border-radius: 50%;
+}
+
+.logo-main .img-logo:hover {
+	transform: rotate(360deg);
+	transition: all 3s;
+	
+}
+
+.thumb:hover {
+	transform: scale(1.2,1.2);
+	transition: all 0.5s;
+}
+
+.cirle .thumb:hover {
+	transform: scale(1.0,1.0);
+}
+
+.cirle:hover {
+	transform: scale(1.2,1.2);
+	transition: all 0.5s;
+}
+
+.last-item{
+	padding-left: 5%;
+}
+
+
+
+@media only screen and (min-width: 993px) {
+ 
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 768px){
+	.head {
+		padding: 10% 40%;
+		padding-bottom: 20%;
+	}
+	
+    .item {
+		width: 30%;
+		display: inline-block;
+		margin-left: 37%;
+    	margin-bottom: 15%;
+		padding: 0%;
+	}
+
+	.img-logo{
+		width: 100%;
+	}
+
+	.logo-main img{
+		max-width: 125%;
+    	width: 125%;
+	}
+}

@@ -1,0 +1,341 @@
+/* <editor-fold desc="COMMON"> */
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Pacifico;
+}
+
+.container {
+    position: relative;
+}
+
+.btn {
+    width: 49%;
+    display: inline-block;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Pacifico;
+    font-size: 4vw;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 3%;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-blue {
+    background-color: blue;
+    border-bottom: 4px solid rgb(3, 3, 160);
+}
+
+.btn-red {
+    background-color: red;
+    border-bottom: 4px solid rgb(189, 0, 0);
+}
+
+.btn-green {
+    background-color: green;
+    border-bottom: 4px solid rgb(0, 85, 0);
+}
+
+.btn-yellow {
+    background-color: yellow;
+    border-bottom: 4px solid rgb(175, 175, 1);
+}
+
+.btn-orange {
+    background-color: #ff7200;
+    border-bottom: 4px solid #a34b03;
+}
+
+.btn-pink {
+    background-color: #FF00FF;
+    border-bottom: 4px solid #a301a3;
+}
+
+.vertical-center-img {
+    display: flex;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.width-45 {
+    width: 45%;
+}
+
+.width-18 {
+    width: 18%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.float-left {
+    float: left;
+}
+
+/* </editor-fold desc="COMMON"> */
+
+/* <editor-fold desc="HEADER"> */
+
+header {
+    width: 100%;
+    background-color: rgb(119, 119, 209);
+    display: flex;
+    align-items: center;
+    padding: 0.5% 0%;
+    margin-bottom: 5%;
+}
+
+.div-header {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.home-icon img {
+    width: 20%;
+}
+
+.next-quiz {
+    display: flex;
+    align-items: center;
+}
+
+.next-quiz img {
+    width: 12%;
+}
+
+.quiz-no {
+    position: absolute;
+    left: 47.5%;
+    display: flex;
+    align-items: center;
+}
+
+.quiz-no img {
+    width: 6vw;
+}
+
+.points {
+    width: 35%;
+    display: inline-block;
+    text-align: right;
+}
+
+.points img {
+    vertical-align: middle;
+    z-index: 1;
+    width: 15%;
+    position: relative;
+}
+
+.points span {
+    color: white;
+    font-size: 2.2vw;
+    border: 1px solid white;
+    border-radius: 25px;
+    display: inline-block;
+    width: 33%;
+    margin-left: -11%;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-bottom: 2%;
+}
+
+.quiz-no-span {
+    font-size: 4vw;
+    position: relative;
+    right: 51%;
+    display: inline-block;
+    margin-top: 30%;
+    color: white;
+}
+
+.home-icon, .next-quiz-img {
+    cursor: pointer;
+}
+
+/* </editor-fold desc="HEADER"> */
+
+/* <editor-fold desc="QUESTION"> */
+
+#answer-question {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.animal-img {
+    display: block;
+    border: 2px solid green;
+    padding: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+.answer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* </editor-fold desc="QUESTION"> */
+
+/* <editor-fold desc="WRONG ANSWER"> */
+
+.wrong-answer, .true-answer {
+    border: 15px solid transparent;
+    border-image: url(../Assets/images/border.png) 30 round;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2% 0%;
+    text-align: center;
+}
+
+.answer-region {
+    width: 100%;
+}
+
+.lose-score, .gain-score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lose-score span {
+    font-size: 8vw;
+    color: rgb(244, 244, 61);
+}
+
+.lose-score img, .true-answer img {
+    padding-right: 2%;
+}
+
+.lose-score img {
+    width: 15%;
+}
+
+.star {
+    text-align: center;
+}
+
+.you-lose, .talented {
+    font-size: 6vw;
+    color: #1E90FF;
+    margin: 0%;
+    font-weight: lighter;
+    margin-bottom: -4%;
+}
+
+.btn-lose {
+    width: 90%;
+    margin-left: 5%;
+}
+
+/* </editor-fold desc="WRONG ANSWER"> */
+
+/* <editor-fold desc="TRUE ANSWER"> */
+
+.true-answer span {
+    font-size: 8vw;
+    color: yellow;
+}
+
+.gain-score img {
+    width: 15%;
+}
+
+.facebook, .twitter {
+    width: 10vw;
+    cursor: pointer;
+}
+
+.true-buttons {
+    width: 100%;
+}
+
+.btn-medal img {
+    margin-left: -45%;
+    margin-top: -25%;
+    margin-right: 10%;
+    width: 30%;
+}
+
+.next-img {
+    width: 18%;
+    margin-right: 15%;
+    vertical-align: sub;
+    margin-left: -20%;
+}
+
+.btn-medal {
+    cursor: default;
+}
+
+/* </editor-fold desc="TRUE ANSWER"> */
+
+/* <editor-fold desc="WIN"> */
+
+.no1 {
+    max-width: 100%;
+    width: 30%;
+}
+
+.congratulation {
+    font-size: 5vw;
+    color: red;
+}
+
+/* </editor-fold desc="WIN"> */
+
+@media only screen and (min-width: 769px) {
+    .replay-img {
+        margin-right: 25%;
+        margin-left: 5%;
+        width: 10%;
+    }
+    .btn-medal {
+        margin-right: 1%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .btn {
+        width: 100%;
+    }
+    .replay-img {
+        width: 8%;
+        margin-right: 25%;
+        margin-left: 5%;
+    }
+    .next-img {
+        width: 8%;
+        margin-top: 1%;
+    }
+    .btn-medal img {
+        width: 15%;
+        margin-left: -50%;
+        margin-right: 30%;
+        margin-bottom: -2%;
+    }
+    .btn-lose {
+        margin-left: 0%;
+    }
+    .star {
+        width: 15%;
+    }
+    .quiz-no {
+        left: 47.5%;
+    }
+}
